@@ -28,12 +28,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-/* Back to top button */
-.back-to-top {
+
+/*.back-to-top {
   position: fixed;
   display: none;
   background: #ffffff;
-  color: #fff;
+  color: #5a6282;
   width: 54px;
   height: 54px;
   text-align: center;
@@ -48,14 +48,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   padding-top: 17px;
-  color: #fff;
+  color: #5a6282;
 }
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
-}
+}*/
 
 /* Prelaoder */
 #preloader {
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #header .logo h1 {
     font-size: 28px;
-    padding: 8px 0;
+/*    padding: 5px 0;*/
   }
 }
 
@@ -195,12 +195,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+/*  margin: 2px 0;*/
+  max-height: 0px;
 }
 
 .main-pages {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #cfddf7;
+  color: #ffffff;
   width: 50%;
 }
 
@@ -718,7 +718,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #2d2b46;
+  background: #5a6282;
   background-size: cover;
   padding: 40px 0;
 }
@@ -1067,12 +1067,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 30px 0;
   font-size: 14px;
   text-align: center;
-  background: #5a6282ff;
+  background: #41475e;
 }
 
 #footer .footer-top {
 padding: 60px 0 30px 10px;
-background: #5a6282;
+background: #41475e;
 
 }
 
@@ -1104,7 +1104,7 @@ background: #5a6282;
   font-size: 18px;
   display: inline-block;
   background: #ffffff;
-  color: #fff;
+  color: #5a6282;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1140,3 +1140,7 @@ background: #5a6282;
 }
 
 
+.white_icon {
+  height: 100px;
+  width: 100px;
+}
