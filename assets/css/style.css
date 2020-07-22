@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 5px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 0;
   }
 }
-
+/*
 #header .logo h1 {
   font-size: 36px;
   margin: 0;
@@ -184,10 +184,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #header .logo h1 {
     font-size: 28px;
-/*    padding: 5px 0;*/
+
   }
 }
-
+*/
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #ffffff;
   text-decoration: none;
@@ -195,8 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   padding: 0;
-/*  margin: 2px 0;*/
-  max-height: 0px;
+  max-height: 100px;
 }
 
 .main-pages {
