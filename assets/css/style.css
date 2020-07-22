@@ -565,7 +565,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about .about-img img {
   width: 100%;
-  border: 8px solid #ffffff;
+/*  border: 8px solid #ffffff;*/
   transition: .5s;
 }
 
