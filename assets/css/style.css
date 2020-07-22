@@ -535,7 +535,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about .about-content h3 {
-  color: #696592;
+  color: #555186;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
@@ -547,6 +547,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about .about-content ul li {
+  color: #555186;
   padding-bottom: 10px;
 }
 
@@ -779,6 +780,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+#timeline {
+  background-image: url("../img/whitebg.jpg");
+}
+
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -917,6 +922,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------*/
 #testimonials {
   padding: 60px 0;
+  background-image: url("../img/dbg.jpg");
 }
 
 #testimonials .section-header {
@@ -997,6 +1003,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Frequently Asked Questions Section
 --------------------------------*/
 #faq {
+  background-image: url("../img/whitebg.jpg");
   padding: 60px 0;
   overflow: hidden;
 }
@@ -1060,12 +1067,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 30px 0;
   font-size: 14px;
   text-align: center;
-  background: #fff;
+  background: #5a6282ff;
 }
 
 #footer .footer-top {
 padding: 60px 0 30px 10px;
-background: #ffffff;
+background: #5a6282;
 
 }
 
@@ -1079,7 +1086,7 @@ background: #ffffff;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #ffffff;
+  color: #5a6282;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
