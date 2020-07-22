@@ -7,7 +7,7 @@ body {
 
 a {
   color: #cfddf7;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 a:hover, a:active, a:focus {
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   left: 15px;
   bottom: 15px;
-  transition: background 0.5s;
+  transition: background 0.3s;
   z-index: 11;
 }
 
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar {
   padding: 0 0 10px 0;
   font-size: 14px;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 @media (max-width: 991px) {
@@ -141,28 +141,45 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   background-color: #5a6282;
   height: 110px;
-  transition: all 0.5s;
+  transition: all 0.3s;
   z-index: 997;
-  transition: all 0.5s;
+  transition: all 0.3s;
   padding: 5px 0;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  transition: all 0.5s;
+  transition: all 0.3s;
   z-index: 997;
 }
 
 #header.header-scrolled, #header.header-pages {
   height: 70px;
-  padding: 15px 0;
+  padding: 10px 0;
   background-color: #41475e;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
-#header.header-scrolled #topbar, #header.header-pages #topbar {
+#header.header-scrolled #topbar .container .logo img, #header.header-pages #topbar .container .logo img {
+  height: 60px;
+  width: 60px;
+}
+
+#header.header-scrolled #topbar .container .social-links, #header.header-pages #topbar .container .social-links {
   display: none;
 }
+
+/*#header.header-scrolled #topbar, #header.header-pages #topbar {
+  .container {
+    .logo  {
+      height: 20px;
+      width: 20 px;
+    }
+    .social-links {
+      display: none;
+    }
+  }
+}*/
 
 @media (max-width: 991px) {
   #header {
@@ -170,6 +187,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 0;
   }
 }
+
 /*
 #header .logo h1 {
   font-size: 36px;
@@ -471,7 +489,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 10px 32px;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0.3s;
   color: #fff;
   background: #5a6282;
 }
@@ -485,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Sections Header
 --------------------------------*/
-.section-header h3 {
+.section-header1 h3 {
   font-size: 36px;
   color: #ffffff;
   text-align: center;
@@ -494,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-.section-header p {
+.section-header1 p {
   text-align: center;
   margin: auto;
   font-size: 15px;
@@ -504,10 +522,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 767px) {
-  .section-header p {
+  .section-header1 p {
     width: 100%;
   }
 }
+
+/*//////////////////////////////////////////////*/
+
+.section-header3 h3 {
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-header3 p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #ffffff;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .section-header3 p {
+    width: 100%;
+  }
+}
+
+
+
+
+
 
 /* Section with background
 --------------------------------*/
@@ -528,7 +577,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about .about-content h2 {
-  color: #ffffff;
+  color: #000000;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -748,7 +797,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 8px 26px;
   border-radius: 3px;
-  transition: 0.5s;
+  transition: 0.3s;
   margin: 10px;
   border: 3px solid #fff;
   color: #fff;
@@ -1002,7 +1051,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Frequently Asked Questions Section
 --------------------------------*/
 #faq {
-  background-image: url("../img/whitebg.jpg");
+  background-image: url("../img/dbg.jpg");
   padding: 60px 0;
   overflow: hidden;
 }
@@ -1013,7 +1062,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #faq #faq-list li {
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #ffffff;
 }
 
 #faq #faq-list a {
@@ -1048,11 +1097,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #faq #faq-list a.collapse {
-  color: #ffffff;
+  color: #cfddf7;
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #ffffff;
 }
 
 #faq #faq-list a.collapsed i::before {
@@ -1139,7 +1188,7 @@ background: #41475e;
 }
 
 
-.white_icon {
+#white_icon {
   height: 100px;
   width: 100px;
 }
