@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav .drop-down ul a:hover, .main-nav .drop-down ul .active > a, .main-nav .drop-down ul li:hover > a {
-  color: #ffffff;
+  color: #5a6282;
 }
 
 .main-nav .drop-down > a:after {
@@ -502,6 +502,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
+  color: #5a6282;
   background: #ffffff;
 }
 
@@ -1055,7 +1056,7 @@ background: #41475e;
 
 #footer .footer-top .social-links a:hover {
   background: #ffffff;
-  color: #fff;
+  color: #cfddf7;
 }
 
 @media (max-width: 574px) {
