@@ -573,6 +573,11 @@ h1, h2, h3, h4, h5, h6 {
 /*  background: #ffffff;*/
 }
 
+.section-bg1 {
+  background: #5a6282;
+/*  background: #ffffff;*/
+}
+
 /* About Us Section
 --------------------------------*/
 #about {
@@ -1502,4 +1507,9 @@ Main Components
     -o-transform: translateX(0%);
     transform: translateX(0%);
   }
+}
+
+.info_three {
+  width: 100%;
+  height: auto;
 }
