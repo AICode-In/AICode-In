@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 5px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -155,13 +155,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled, #header.header-pages {
   height: 70px;
-  padding: 15px 0;
+  padding: 5px 0;
   background-color: #41475e;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
-#header.header-scrolled #topbar, #header.header-pages #topbar {
+/*#header.header-scrolled #topbar, #header.header-pages #topbar {
   display: none;
+}*/
+
+#header.header-scrolled .container .logo img, #header.header-pages .container .logo img {
+  height: 60px;
+  width: 60px;
 }
 
 @media (max-width: 700px) {
@@ -171,28 +176,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#header .logo h1 {
-  font-size: 36px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
 
-@media (max-width: 991px) {
-  #header .logo h1 {
-    font-size: 28px;
-    padding: 8px 0;
-  }
-}
 
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #ffffff;
   text-decoration: none;
 
 }
+
+#header .logo img {
+  padding: 0;
+  max-height: 100px;
+}
+
 
 .main-pages {
   margin-top: 60px;
@@ -744,8 +740,17 @@ background: #41475e;
 }
 
 
+#white_icon {
+  height: 100px;
+  width: 100px;
+}
 
+.profiles {
+  width: 100px;
+  height: 100px;
+}
 
-
-
-
+.profiles1 {
+  width: 200px;
+  height: 200px;
+}
